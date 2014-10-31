@@ -9,6 +9,7 @@
 #ifndef Swift_Cocoapods_Bridging_Header_h
 #define Swift_Cocoapods_Bridging_Header_h
 
+// Import any Cocoapod library here
 #import <AFNetworking/AFNetworking.h>
 
 #endif
