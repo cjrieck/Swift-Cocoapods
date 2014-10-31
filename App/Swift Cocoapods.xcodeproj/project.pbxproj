@@ -211,10 +211,13 @@
 			<key>children</key>
 			<array>
 				<string>36A190DA1A03D0270071181F</string>
+				<string>36A190FB1A03D3AA0071181F</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
+			<string>Supporting Files</string>
+			<key>path</key>
 			<string>Supporting Files</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
@@ -438,6 +441,8 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Supporting Files</string>
+			<key>path</key>
+			<string>Supporting Files</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -626,6 +631,8 @@
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
@@ -638,11 +645,13 @@
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
 				<string>AppIcon</string>
 				<key>INFOPLIST_FILE</key>
-				<string>Swift Cocoapods/Info.plist</string>
+				<string>Swift Cocoapods/Supporting Files/Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
+				<string>Swift Cocoapods/Supporting Files/Bridging-Header.h</string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
@@ -658,11 +667,13 @@
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
 				<string>AppIcon</string>
 				<key>INFOPLIST_FILE</key>
-				<string>Swift Cocoapods/Info.plist</string>
+				<string>Swift Cocoapods/Supporting Files/Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
+				<string>Swift Cocoapods/Supporting Files/Bridging-Header.h</string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
@@ -678,6 +689,8 @@
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
@@ -698,7 +711,7 @@
 					<string>$(inherited)</string>
 				</array>
 				<key>INFOPLIST_FILE</key>
-				<string>Swift CocoapodsTests/Info.plist</string>
+				<string>Swift CocoapodsTests/Supporting Files/Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
 				<key>PRODUCT_NAME</key>
@@ -723,7 +736,7 @@
 					<string>$(inherited)</string>
 				</array>
 				<key>INFOPLIST_FILE</key>
-				<string>Swift CocoapodsTests/Info.plist</string>
+				<string>Swift CocoapodsTests/Supporting Files/Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
 				<key>PRODUCT_NAME</key>
@@ -735,6 +748,17 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
+		</dict>
+		<key>36A190FB1A03D3AA0071181F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Bridging-Header.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>4C29ECA22B06E720B8AE2A13</key>
 		<dict>
@@ -810,7 +834,7 @@ fi
 			<key>name</key>
 			<string>Pods-Swift Cocoapods.debug.xcconfig</string>
 			<key>path</key>
-			<string>../Pods/Target Support Files/Pods-Swift Cocoapods/Pods-Swift Cocoapods.debug.xcconfig</string>
+			<string>../../Pods/Target Support Files/Pods-Swift Cocoapods/Pods-Swift Cocoapods.debug.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -824,6 +848,8 @@ fi
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
+			<string>Pods</string>
+			<key>path</key>
 			<string>Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
@@ -839,7 +865,7 @@ fi
 			<key>name</key>
 			<string>Pods-Swift Cocoapods.release.xcconfig</string>
 			<key>path</key>
-			<string>../Pods/Target Support Files/Pods-Swift Cocoapods/Pods-Swift Cocoapods.release.xcconfig</string>
+			<string>../../Pods/Target Support Files/Pods-Swift Cocoapods/Pods-Swift Cocoapods.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
