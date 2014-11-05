@@ -10,9 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let networkingManager = AFHTTPRequestOperationManager()
+    let networkingManager: AFHTTPRequestOperationManager
     
     override init() {
+        networkingManager = AFHTTPRequestOperationManager()
+        
         super.init(nibName: nil, bundle: nil)
         // Do any custom initialization here
         
